@@ -24,7 +24,7 @@ def price():
     converted_price = price[1:]
     converted_price = float(converted_price)
     print(converted_price)
-    if(converted_price > 700):
+    if(converted_price < 700):
         notifyRonak()
 
 
